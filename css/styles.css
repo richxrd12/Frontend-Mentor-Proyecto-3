@@ -1,0 +1,162 @@
+:root{
+    --verydarkblue: hsl(243, 87%, 12%);
+    --desaturatedblue: hsl(238, 22%, 44%);
+    --brightblue: hsl(224, 93%, 58%);
+    --moderatecyan: hsl(170, 45%, 43%);
+    --lightgrayishblue: hsl(240, 75%, 98%);
+    --lightgray: hsl(0, 0%, 75%);
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img{
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+header nav{
+    margin-top: 1.1rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--desaturatedblue);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0.8rem;
+}
+
+.descriptionimg{
+    background-image: url(../images/illustration-1.svg);
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.description h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: var(--verydarkblue);
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.description p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-inline: 2.5rem;
+    text-align: center;
+    color: var(--verydarkblue);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-inline: 2rem;
+    padding: 0.8rem;
+    border: solid var(--verydarkblue) 1px;
+    border-radius: 0.3rem;
+    color: var(--lightgrayishblue);
+}
+
+.inputs button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-inline: 2rem;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    background-color: var(--brightblue);
+    border-style: none;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.productivityimg{
+    margin-top: 20rem;
+    background-image: url(../images/illustration-2.svg);
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+}
+
+.productivity{
+    text-align: center;
+}
+
+.productivity h2{
+    margin-top: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: var(--verydarkblue);
+}
+
+.productivity p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-inline: 1.2rem;
+    color: var(--verydarkblue);
+    line-height: 1.5rem;
+}
+
+.productivity button{
+    margin: 1.5rem;
+    background-color: white;
+    border-style: none;
+    color: var(--moderatecyan);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-bottom: solid 1px;
+}
+
+.commentary{
+    margin: auto;
+    width: 78%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightgray);
+    text-align: left;
+    padding: 2rem 1rem;
+}
+.commentary p{
+    line-height: 2rem;
+    margin-left: 2rem;
+    font-size: 15px;
+}
+
+.commentary img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 2rem;
+}
+
+.ceo{
+    display: flex;
+    flex-direction: row;
+}
+
+.ceo img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.ceoinf{
+    
+}
