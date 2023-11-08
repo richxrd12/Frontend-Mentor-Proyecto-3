@@ -10,6 +10,10 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 
+body{
+    margin: 0;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -124,18 +128,19 @@ header nav a{
 
 .commentary{
     margin: auto;
-    width: 78%;
-    height: 230px;
+    margin-top: 2rem;
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color: var(--lightgray);
     text-align: left;
     padding: 2rem 1rem;
 }
+
 .commentary p{
-    line-height: 2rem;
-    margin-left: 2rem;
-    font-size: 15px;
+    margin: 0.5rem 0rem 0rem 2rem;
+    font-size: 14px;
 }
 
 .commentary img{
@@ -154,9 +159,148 @@ header nav a{
     height: 3rem;
     border-radius: 50%;
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
-.ceoinf{
-    
+.ceo h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 1.5rem 0rem 0rem 0rem;
+    color: var(--verydarkblue);
+}
+
+.ceo p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.earlyaccess{
+    width: 100%;
+    background-color: var(--desaturatedblue);
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif ;
+    margin-top: 7rem;
+}
+
+.earlyaccess h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 4rem;
+}
+
+.earlyaccess p{
+    margin: 2rem 3rem;
+    font-size: 17px;
+}
+
+.earlyaccess form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+
+.earlyaccess form input{
+    margin-inline: 6rem;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-style: none;
+    border-radius: 0.1rem;
+}
+
+.earlyaccess form button{
+    margin-inline: 6rem;
+    padding: 0.8rem;
+    background-color: var(--brightblue);
+    color: white;
+    border-style: none;
+    border-radius: 0.1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--verydarkblue);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3rem;
+}
+
+footer svg{
+    margin-top: 4rem;
+}
+
+.phone{
+    display: flex;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+.phone img{
+    margin-top: 1.1rem;
+    margin-right: 1rem;
+    width: auto;
+    height: 1rem;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail img{
+    margin-top: 1.1rem;
+    margin-right: 0.8rem;
+    width: auto;
+    height: 1rem;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.icons div{
+    height: 3rem;
+    width: 3rem;
+    border: solid white 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+.icons img{
+    width: 1.5rem;
+}
+
+@media (min-width: 1440px){
+    header{
+        margin: 1rem 3rem;
+    }
+    .description{
+        display: grid;
+        grid-template-areas: 
+        'leftside rightside';
+    }
+    .descriptionimg{
+        grid-area: rightside;
+    }
+    .descriptioncontent{
+        grid-area: leftside;
+    }
 }
